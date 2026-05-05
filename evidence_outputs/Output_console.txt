@@ -42,7 +42,6 @@ Process finished with exit code 0
 ==========================================================================================================
 
 webhook event
-
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -51,38 +50,34 @@ webhook event
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2026-05-05T12:50:29.920+05:30  INFO 23956 --- [           main] com.acculynx.AccuLynxApplication         : Starting AccuLynxApplication v1.0.0 using Java 21.0.2 with PID 23956 (D:\204\L24CS204\acculynx-integration\target\acculynx-integration.jar started by venky in D:\204\L24CS204\acculynx-integration)
-2026-05-05T12:50:29.924+05:30  INFO 23956 --- [           main] com.acculynx.AccuLynxApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-05-05T12:50:31.310+05:30  INFO 23956 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2026-05-05T12:50:31.329+05:30  INFO 23956 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-05T12:50:31.329+05:30  INFO 23956 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2026-05-05T12:50:31.371+05:30  INFO 23956 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-05-05T12:50:31.373+05:30  INFO 23956 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1355 ms
-2026-05-05T12:50:34.744+05:30  INFO 23956 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
-2026-05-05T12:50:34.780+05:30  INFO 23956 --- [           main] com.acculynx.AccuLynxApplication         : Started AccuLynxApplication in 5.463 seconds (process running for 6.048)
+2026-05-05T19:11:35.006+05:30  INFO 17848 --- [           main] com.acculynx.AccuLynxApplication         : Starting AccuLynxApplication v1.0.0 using Java 21.0.2 with PID 17848 (D:\204\L24CS204\acculynx-integration\target\acculynx-integration.jar started by venky in D:\204\L24CS204\acculynx-integration)
+2026-05-05T19:11:35.012+05:30  INFO 17848 --- [           main] com.acculynx.AccuLynxApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-05-05T19:11:37.304+05:30  INFO 17848 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2026-05-05T19:11:37.337+05:30  INFO 17848 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-05T19:11:37.338+05:30  INFO 17848 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-05-05T19:11:37.400+05:30  INFO 17848 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-05T19:11:37.400+05:30  INFO 17848 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2190 ms
+2026-05-05T19:11:40.953+05:30  INFO 17848 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2026-05-05T19:11:40.990+05:30  INFO 17848 --- [           main] com.acculynx.AccuLynxApplication         : Started AccuLynxApplication in 7.186 seconds (process running for 8.266)
 Webhook mode server is running on port 9090
-2026-05-05T12:51:32.130+05:30  INFO 23956 --- [nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-05T12:51:32.131+05:30  INFO 23956 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-05T12:51:32.132+05:30  INFO 23956 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-05T19:12:32.689+05:30  INFO 17848 --- [nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-05T19:12:32.689+05:30  INFO 17848 --- [nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-05T19:12:32.697+05:30  INFO 17848 --- [nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 
 [WEBHOOK] ══════════════════════════════════
 [WEBHOOK] Received Job Created event
-[WEBHOOK] Raw payload: {"topicName":"job_created","eventDateTime":"2026-05-05T07:21:52.7871722Z","eventId":"be7e71c1-1165-439d-9562-ac8890256c78","subscriptionId":"1e7901fc-062f-46a1-849e-853312e6334d","event":{"job":{"id":"db3ff184-f537-4ee9-8c7e-6a29f7a264bf","jobName":"j venkatesh","jobNumber":"","currentMilestone":"Lead","jobPriority":"Normal","contacts":[{"id":"904d9a0c-f545-4f16-be4f-3579ffd1626a","isPrimary":true,"contact":{"id":"3aab7b4b-e0c3-47e9-8eec-dfca1b171e35","firstName":"j","lastName":"venkatesh","salutation":"","crossReference":"","companyName":"","_link":"https://api.acculynx.com/api/v2/contacts/3aab7b4b-e0c3-47e9-8eec-dfca1b171e35"},"_link":"https://api.acculynx.com/api/v2/jobs/db3ff184-f537-4ee9-8c7e-6a29f7a264bf/contact/904d9a0c-f545-4f16-be4f-3579ffd1626a"}],"locationAddress":{"street1":"","street2":"","city":"Guntur","zipCode":"53302"},"_link":"https://api.acculynx.com/api/v2/jobs/db3ff184-f537-4ee9-8c7e-6a29f7a264bf"}}}
 [WEBHOOK] ══════════════════════════════════
-[WEBHOOK] Contact API Response: {"id":"3aab7b4b-e0c3-47e9-8eec-dfca1b171e35","firstName":"j","lastName":"venkatesh","salutation":"","crossReference":"","companyName":"","mailingAddress":{"street1":"","street2":"","city":"Guntur","zipCode":"53302"},"billingAddress":{"street1":"","street2":"","city":"Guntur","zipCode":"53302"},"phoneNumbers":[{"id":"c7906442-2bc0-4cff-a178-937ee7c90af2","_link":"https://api.acculynx.com/api/v2/contacts/3aab7b4b-e0c3-47e9-8eec-dfca1b171e35/phone-numbers/c7906442-2bc0-4cff-a178-937ee7c90af2"}],"emailAddresses":[{"id":"adb6fb22-256c-4849-b6fc-b9cf150150a1","_link":"https://api.acculynx.com/api/v2/contacts/3aab7b4b-e0c3-47e9-8eec-dfca1b171e35/email-addresses/adb6fb22-256c-4849-b6fc-b9cf150150a1"}],"_link":"https://api.acculynx.com/api/v2/contacts/3aab7b4b-e0c3-47e9-8eec-dfca1b171e35"}
-[WEBHOOK] Sub-resource response: {"id":"c7906442-2bc0-4cff-a178-937ee7c90af2","number":"(908) 765-4321","ext":"","type":"Home","primary":true,"smsOptOut":false,"_link":"https://api.acculynx.com/api/v2/contacts/3aab7b4b-e0c3-47e9-8eec-dfca1b171e35/phone-numbers/c7906442-2bc0-4cff-a178-937ee7c90af2"}
-[WEBHOOK] Sub-resource response: {"id":"adb6fb22-256c-4849-b6fc-b9cf150150a1","address":"venky@gmail.com","primary":true,"type":"Unspecified","_link":"https://api.acculynx.com/api/v2/contacts/3aab7b4b-e0c3-47e9-8eec-dfca1b171e35/email-addresses/adb6fb22-256c-4849-b6fc-b9cf150150a1"}
 [WEBHOOK] ? Contact details enriched via API.
-[WEBHOOK] Event ID     : be7e71c1-1165-439d-9562-ac8890256c78
-[WEBHOOK] Event Time   : 2026-05-05T07:21:52.7871722Z
+[WEBHOOK] Event ID     : df538a57-d36d-436e-819c-274d7602d11e
+[WEBHOOK] Event Time   : 2026-05-05T13:42:54.3850998Z
 [WEBHOOK] Topic        : job_created
-[WEBHOOK] Job ID       : db3ff184-f537-4ee9-8c7e-6a29f7a264bf
-[WEBHOOK] Job Name     : j venkatesh
+[WEBHOOK] Job ID       : d6ee9d8b-6c2c-4530-8ef9-d0ce8c034347
+[WEBHOOK] Job Name     : javvaji venkateswarlu
 [WEBHOOK] City         : Guntur
-[WEBHOOK] Zip Code     : 53302
-[WEBHOOK] Contact      : j venkatesh
-[WEBHOOK] Contact ID   : 3aab7b4b-e0c3-47e9-8eec-dfca1b171e35
-[WEBHOOK] Email        : venky@gmail.com
+[WEBHOOK] Zip Code     : 54321
+[WEBHOOK] Contact      : javvaji venkateswarlu
+[WEBHOOK] Contact ID   : 23560885-c74a-4826-af0a-916b5eb9da33
+[WEBHOOK] Email        : venkat@gmail.com
 [WEBHOOK] Phone        : (908) 765-4321
 [SHEETS] ? Row appended successfully.
 [WEBHOOK] ? Saved to Google Sheet.
